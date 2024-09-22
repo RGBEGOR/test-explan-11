@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подготовка к проверочной работе</title>
+    <link rel="shortcut icon" href="img/LO.png" type="images/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="start_btn"><button>Начать тесты</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Инструкции</span>
+        <img src="img/LO.png" alt="" class="info-img">
+        </div>
+        <div class="info-list">
+            <div class="info">1. Тут у Вас есть только <span>15 секунд</span> на решение вопроса.</div>
+            <div class="info">2. Внимательно читайте вопросы и старайтесь запомнить</div>
+            <div class="info">3. Вам будут представлены 15 тестов</div>
+            <div class="info">4. Для повторения основных тем ещё раз прорешайте тесты</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Закончить</button>
+            <button class="restart">Понятно</button>
+        </div>
+    </div>
+
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Решения вопроса</div>
+            <div class="timer">
+                <div class="time_left_txt">Время</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+
+            </div>
+            <div class="option_list">
+
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="total_que">
+
+            </div>
+            <button class="next_btn">Следущий</button>
+        </footer>
+    </div>
+
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Вы прошли подготовку!</div>
+        <div class="score_text">
+
+        </div>
+        <div class="buttons">
+            <button class="restart">Перезапуск</button>
+            <button class="quit">Вернуться</button>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
